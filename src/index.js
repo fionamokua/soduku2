@@ -1,12 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import Board from '/home/fiona/Desktop/solve/soduku/src/component/Board.js'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Board />
   </React.StrictMode>,
   document.getElementById('root')
 );
